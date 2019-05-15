@@ -1,15 +1,8 @@
 {
   "name": "personal-gatsby",
-  "builds": [{
-    "src": "package.json",
-    "use": "@now/static-build",
-    "config": {
-      "distDir": "public"
-    }
-  }],
   "private": true,
   "description": "Personal site for Chris Springer",
-  "version": "2",
+  "version": "0.1.0",
   "author": "Chris Springer",
   "dependencies": {
     "gatsby": "^2.4.3",
