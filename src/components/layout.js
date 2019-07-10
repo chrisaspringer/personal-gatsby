@@ -41,13 +41,13 @@ const Layout = ({ children }) => (
               bottom: `0`,
               left: `0`,
               width: `100%`,
-              padding: `1.45rem 1.0875rem`,
             }}
           >
             <div
               style={{
                 margin: `0 auto`,
                 maxWidth: 960,
+                padding: `1.45rem 1.0875rem`,
               }}
             >
               © {new Date().getFullYear()} Chris Springer
