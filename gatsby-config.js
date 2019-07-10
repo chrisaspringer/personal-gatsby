@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `c.s.`,
+    title: `cspringer.co`,
     description: `Chris Springer's personal site. Chris is a technologist living in the Washington D.C. area.`,
     author: `@chrisaspringer`,
   },
