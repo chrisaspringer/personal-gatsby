@@ -23,7 +23,7 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>
-        <Link to="/">Back to blog posts</Link>
+        <Link to="/blog">Back to blog posts</Link>
       </div>
     </Layout>
   )
