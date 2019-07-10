@@ -28,7 +28,7 @@ const IndexPage = () => (
         I build sites and apps with JavaScript, typically using React and Node.
       </p>
       <p>I build voice apps for Alexa and Google Assistant, often with Jovo.</p>
-      <Link to="/posts/">Blog posts</Link>
+      <Link to="/blog">Blog posts</Link>
     </section>
   </Layout>
 )

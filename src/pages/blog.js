@@ -20,8 +20,6 @@ const Posts = ({ data }) => {
           )
         })}
       </ul>
-
-      <Link to="/">Go back to the homepage</Link>
     </Layout>
   )
 }
