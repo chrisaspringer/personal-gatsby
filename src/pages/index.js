@@ -10,7 +10,10 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Hi, I'm Chris.</h1>
     <p>I'm a technologist / developer in the DC area.</p>
-    <p>I build sites with React and Node. I build voice apps with Jovo.</p>
+    <p>
+      I build sites and apps with JavaScript, typically using React and Node.
+    </p>
+    <p>I build voice apps for Alexa and Google Assistant, often with Jovo.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
