@@ -24,7 +24,15 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <div
+        style={{
+          minHeight: `100vh` /* will cover the 100% of viewport */,
+          overflow: `hidden`,
+          display: `block`,
+          position: `relative`,
+          paddingBottom: `100px`,
+        }}
+      >
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
@@ -37,24 +45,23 @@ const Layout = ({ children }) => (
           <main>{children}</main>
           <footer
             style={{
-              position: `fixed`,
+              position: `absolute`,
               bottom: `0`,
-              left: `0`,
               width: `100%`,
+              textAlign: `left`,
             }}
           >
             <div
               style={{
-                margin: `0 auto`,
-                maxWidth: 960,
-                padding: `1.45rem 1.0875rem`,
+                maxWidth: `960px`,
+                padding: `1.45rem 0`,
               }}
             >
               © {new Date().getFullYear()} Chris Springer
             </div>
           </footer>
         </div>
-      </>
+      </div>
     )}
   />
 )
