@@ -2,7 +2,7 @@
   "name": "personal-gatsby",
   "private": true,
   "description": "Personal site for Chris Springer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Chris Springer",
   "dependencies": {
     "gatsby": "^2.13.13",
