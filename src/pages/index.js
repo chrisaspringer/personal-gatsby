@@ -23,11 +23,10 @@ const IndexPage = () => (
       <h1>Hi, I'm Chris.</h1>
     </section>
     <section>
-      <p>I'm a senior technologist at AKQA / developer in the DC area.</p>
+      <p>I'm a principal technologist at AKQA living in the DC area.</p>
       <p>
-        I build sites and apps with JavaScript, typically using React and Node.
+        I architect software systems to support websites and apps, architect websites (I love NextJS and TailwindCSS), and manage project dev teams. 
       </p>
-      <p>I build voice apps for Alexa and Google Assistant, often with Jovo.</p>
       <Link to="/blog">Blog posts</Link>
     </section>
   </Layout>
