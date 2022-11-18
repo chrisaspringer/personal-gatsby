@@ -5,7 +5,7 @@
   "version": "0.1.2",
   "author": "Chris Springer",
   "dependencies": {
-    "gatsby": "^2.13.13",
+    "gatsby": "^5.0.1",
     "gatsby-image": "^2.0.41",
     "gatsby-plugin-manifest": "^2.1.1",
     "gatsby-plugin-offline": "^2.1.0",
